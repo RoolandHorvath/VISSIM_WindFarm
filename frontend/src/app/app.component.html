@@ -1,0 +1,15 @@
+<div class="container">
+    <header class="header">
+        <h1>WindFarm Traffic Monitoring</h1>
+        <p>Select a date to view traffic data of ships around wind farms, including their Speed Over Ground (SOG) and
+            Course Over Ground (COG).</p>
+    </header>
+
+    <div class="date-selector">
+        <label for="start">Select date:</label>
+        <input type="date" id="start" name="trip-start" class="date-input"/>
+        <button class="fetch-button" (click)="fetchData()">Fetch Data</button>
+    </div>
+
+    <div id="map" class="map"></div>
+</div>

@@ -1,0 +1,88 @@
+
+#map {
+    height: 80vh;
+    border: 1px solid black;
+}
+
+/* Add a modern font and reset some basic styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container for overall layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+/* Date selector styling */
+.date-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.date-selector label {
+    font-weight: 500;
+    color: #34495e;
+}
+
+.date-input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+.fetch-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fetch-button:hover {
+    background-color: #2980b9;
+}
+
+/* Map styling */
+.map {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

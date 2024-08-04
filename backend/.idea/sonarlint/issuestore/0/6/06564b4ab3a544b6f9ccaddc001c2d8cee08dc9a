@@ -1,0 +1,14 @@
+
+Q	java:S125 "<This block of commented-out lines of code should be removed.(±ğ¯
+@	java:S106%"+Replace this use of System.out by a logger.(î¨íÛ
+@	java:S106("+Replace this use of System.out by a logger.(¾âìä
+E	java:S106+"+Replace this use of System.out by a logger.(¿ğÈÃøÿÿÿÿ
+E	java:S1060"+Replace this use of System.out by a logger.(é“„ßúÿÿÿÿ
+E	java:S1064"+Replace this use of System.out by a logger.(Š¶ğüÿÿÿÿ
+Q	java:S1258"<This block of commented-out lines of code should be removed.(²Òù
+_
+java:S1128"IRemove this unused import 'com.example.demo.DTOs.TrafficDataFilteredDTO'.(›©¼³
+E
+java:S1068"0Remove this unused "assetService" private field.(øöÁ2
+M
+java:S1144$"7Remove this unused private "testAllTrafficData" method.(¡ùä‰
